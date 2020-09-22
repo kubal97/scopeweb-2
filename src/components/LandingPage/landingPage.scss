@@ -3,6 +3,9 @@
     overflow-x: hidden;
     white-space: nowrap;
     display: inline-block;
+    background-image: url('../../assets/landingPage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 
     .image{
         position: absolute;
@@ -59,8 +62,6 @@
 
         .search{
             display: inline-flex;
-            width: auto;
-            flex-direction: row;
             background-color: #ffffff;
             border-radius: 5px;
             padding: 10px;
@@ -107,16 +108,21 @@
             flex-direction: column;
             margin-top: 100px;
 
+            .companiesHeader{
+                color: #01022D;
+                font-size: 14px;
+            }
+
             .icons{
                 display: flex;
                 flex-direction: row;
-                width: auto;
+                width: 160px;
                 height: auto;
                 background-color: #ffffff;
                 border-radius: 5px;
                 padding: 10px 5px;
 
-                .icon{
+                img{
                     width: 20px;
                     height: 20px;
                     margin: auto 5px;

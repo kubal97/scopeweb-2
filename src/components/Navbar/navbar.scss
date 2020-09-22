@@ -1,5 +1,7 @@
 .navbar{
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 999;
     height: 150px;
     width: 100vw;
@@ -91,4 +93,5 @@
     background-color: #ffffff;
     height: 70px;
     transition: all .5s ease;
+    border-bottom: 3px solid #FF9166;
 }

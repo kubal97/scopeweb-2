@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.scss';
 
-function Navbar() {
+const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect( () => {

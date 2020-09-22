@@ -1,0 +1,223 @@
+.jobOffers{
+    background-color: #ffffff;
+    padding: 0 5vw;
+    height: auto;
+    margin-bottom: 100px;
+
+    .header{
+        color: #01022D;
+        font-size: 35px;
+        font-weight: 700;
+
+        .green{
+            color: #54BD7F;
+        }
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .offer{
+            width: 28%;
+            height: auto;
+            padding: 10px 30px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 10px #ebeff5;
+            margin: 30px 0;
+            pointer-events: none;
+
+            .head{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .wrapper{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    .logo{
+                        width: 50px;
+                        height: auto;
+                    }
+    
+                    .middle{
+                       margin-left: 20px;
+                       font-weight: 600;
+                       color: #01022D;
+    
+                        .name{
+                            font-size: 18px;
+                            opacity: .5;
+                            margin: 5px auto;
+                        }
+    
+                        .work{
+                            font-size: 18px;
+                            margin: 5px auto;
+                        }
+    
+                        .when{
+                            font-size: 12px;
+                            opacity: .3;
+                            margin: 10px auto;
+                        }
+                    }
+                }
+
+                .end{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .favourite{
+                        width: 30px;
+                        height: auto;
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                        box-shadow: 0 5px 5px #ebeff5;
+                        fill: #D5D4D4;
+                    }
+
+                    .type{
+                        background-color: #ffeee1;
+                        color:  #ffaa65;  
+                        font-size: 10px;
+                        font-weight: 700;
+                        padding: 5px;
+                        border-radius: 5px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .body{
+                font-size: 18px;
+                color: #01022D;
+                opacity: .3;
+                font-weight: 600;
+            }
+
+            .footer{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .apply{
+                    background-color: transparent;
+                    outline: none;
+                    border: none;
+                    font-size: 14;
+                    font-weight: 700;
+                    color: #54BD7F;
+                    padding-bottom: 3px;
+                    border-bottom: 1px solid #54BD7F;
+                    pointer-events: auto;
+
+                    &:hover{
+                        outline: none;
+                        border: none;
+                        border-bottom: 1px solid #54BD7F;
+                        cursor: pointer;
+                        color: #36945d;
+                    }
+                }
+
+                .faces{
+                    display: flex;
+                    flex-direction: row;
+
+                    .face{
+                        width: 35px;
+                        height: 35px;
+                        margin-right: -15px;
+                        border-radius: 25px;
+                        border: 4px solid #ffffff;
+                    }
+
+                    .additional{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 25px;
+                        background-color:  #ffaa65;
+                        color: #ffffff;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-align: center;
+                        border: 4px solid #ffffff;
+                    }
+                }
+            }
+        }
+
+        .offer:hover{
+            background-color: #314563;
+            
+            .head{
+                .middle, .end{
+                    color: #ffffff;
+
+                    .favourite{
+                        fill:  #ffaa65;
+                        box-shadow: none;
+                        background-color: #475c7c;
+                    }
+                }        
+            }
+
+            .body, .footer{
+                color: #ffffff;
+                opacity: 1;
+
+                .apply{
+                    border: none;
+                    background-color: #54BD7F;
+                    color: #ffffff;
+                    padding: 0 10px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .pagination{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .page{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: #ffffff;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            color: #7c7dca;
+            box-shadow: 0 5px 5px #D5D4D4;
+            margin: 50px 10px;
+
+            &:hover{
+                cursor: pointer;
+                background-color: #3a9962;
+                color: #ffffff;
+            }
+        }
+
+        .active{
+            background-color: #3a9962;
+            color: #ffffff;
+        }
+    }
+}

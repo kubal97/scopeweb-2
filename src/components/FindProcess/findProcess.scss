@@ -1,0 +1,78 @@
+.findProcess{
+    background-color: #ffffff;
+    padding: 0 5vw;
+    height: auto;
+
+    .process{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 150px auto;
+
+        .step{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 200px;
+
+            .rectangle{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                height: 100px;
+                border-radius: 30px;
+                
+                transform: rotate(45deg);
+
+                .far, .fas{
+                    transform: rotate(-45deg);
+                    font-size: 25px;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .head{
+                color: #01022D;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 40px;
+            }
+
+            .body{
+                color: #01022D;
+                font-size: 14px;
+                font-weight: 600;
+                opacity: .5;
+            }
+
+            .blue{
+                background-color: #ecf5ff;
+                color:  #5485bd;   
+            }
+
+            .orange{
+                background-color: #fff2e7;
+                color:  #bd8354;   
+            }
+
+            .green{
+                background-color: #daf5e5;
+                color:  #54BD7F;   
+            }
+
+            .purple{
+                background-color: #f1eaff;
+                color:  #7c54bd;   
+            }
+        }
+
+        .arrowRight{ 
+            width: 40px;
+            height: auto;
+            margin-bottom: 140px;
+        }
+    }
+}
