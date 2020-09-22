@@ -1,0 +1,94 @@
+.navbar{
+    position: fixed;
+    z-index: 999;
+    height: 150px;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .5s ease;
+
+    .logo{
+        font-size: 30px;
+        font-weight: 700;
+        color: #01022D;
+        margin-left: 5vw;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-right: 5vw;
+
+        .navItem{
+            margin: auto 30px;
+            font-size: 14px;
+            text-decoration: none;
+            color: #01022D;
+            padding: 20px 0px;
+            display: inline-block;
+            position: relative;
+
+            .fas{
+                margin-right: 10px;
+            }
+
+            a, a:visited{
+                text-decoration: none;
+                color: #01022D;
+            }
+
+
+            &:hover a, &:hover a:visited{
+                color: #FF9166;
+            }
+
+            &:hover{
+                color: #FF9166;
+                cursor: pointer;
+            }
+
+            &::before{
+                content: "";
+                transition: 300ms;
+                height: 2px;
+                position: absolute;
+                background-color: #FF9166;
+                width: 0%;
+                bottom: 10px;
+            }
+
+            &:hover::before{
+                width: 100%;
+            }
+
+            &:last-child {
+                background-color:#54BD7F;
+                padding: 15px;
+                border-radius: 5px;
+
+                a, a:visited{
+                    color: #ffffff;
+                }
+
+                &:hover{
+                    background-color: #3a9962;
+                }
+
+                &::before{
+                    content: none;
+                }
+            }
+        }
+    }
+}
+
+.small{
+    background-color: #ffffff;
+    height: 70px;
+    transition: all .5s ease;
+}
