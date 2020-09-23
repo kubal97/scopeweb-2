@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-moz-selection {
+  background: #77d397;
+}
+::-webkit-selection {
+  background: #77d397;
+}
+::selection {
+  background:#77d397;
+}

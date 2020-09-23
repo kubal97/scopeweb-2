@@ -35,12 +35,14 @@
             padding: 0 100px 50px 100px;
             border: 1px solid #eeeeee;
             border-radius: 10px;
+            transform: scale(1);
             transition: all .3s ease;
 
             &:hover{
                 cursor: pointer;
                 box-shadow: 30px 30px 60px #dddddd;
                 border: 1px solid #ffffff;
+                transform: scale(1.05);
                 transition: all .3s ease;
             }
 

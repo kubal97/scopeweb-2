@@ -11,6 +11,7 @@
         width: 30vw;
         height: auto;
         margin-left: 100px;
+        animation: scaling 5s infinite ease-in-out;    
     }
 
     .download{
@@ -101,5 +102,19 @@
                 }
             }
         }
+    }
+}
+
+@keyframes scaling {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
     }
 }
