@@ -6,6 +6,8 @@ import FindProcess from './components/FindProcess';
 import JobsOffers from './components/JobOffers';
 import ExploreSection from './components/ExploreSection';
 import JobsCategory from './components/JobsCategory';
+import CompanyPosts from './components/CompanyPosts';
+import AboutUs from './components/AboutUs';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <JobsOffers />
       <ExploreSection />
       <JobsCategory />
+      <CompanyPosts />
+      <AboutUs />
     </div>
   );
 }

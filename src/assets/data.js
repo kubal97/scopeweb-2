@@ -8,6 +8,10 @@ import { ReactComponent as Rugby } from './rugby.svg';
 import { ReactComponent as Megaphone } from './megaphone.svg';
 import { ReactComponent as Bookmark } from './bookmark.svg';
 
+import Face1 from './face1.jpg';
+import Face2 from './face2.jpg';
+import Face3 from './face3.jpg';
+
 const offers = [
     {
         id: "1",
@@ -174,7 +178,35 @@ const offers = [
     }
   ]
 
+  const about = [
+    {
+      id: "1",
+      avatar: Face1,
+      opinion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum id sunt eius cumque debitis.",
+      name: "Randy Elliot",
+      position: "Creative Director & CEO",
+      color: "#54BD7F"
+    },
+    {
+      id: "2",
+      avatar: Face2,
+      opinion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum id sunt eius cumque debitis.",
+      name: "Steve Fisher",
+      position: "Creative Director & CEO",
+      color: "#FF9166"
+    },
+    {
+      id: "3",
+      avatar: Face3,
+      opinion: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum id sunt eius cumque debitis.",
+      name: "Marie Oliver",
+      position: "Creative Director & CEO",
+      color: "#E5F5F1"
+    }
+  ]
+
   export  {
     offers,
-    categoryCards
+    categoryCards,
+    about
   };

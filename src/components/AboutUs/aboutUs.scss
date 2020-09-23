@@ -1,0 +1,105 @@
+.aboutUs{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0 5vw;
+    height: auto;
+    margin-bottom: 100px;
+
+    .header{
+        color: #01022D;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 0;
+
+        .green{
+            color: #54BD7F;
+        }
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .about{
+            width: 15%;
+            background-color: #ffffff;
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 20px;
+            padding: 0 100px 50px 100px;
+            border: 1px solid #eeeeee;
+            border-radius: 10px;
+            transition: all .3s ease;
+
+            &:hover{
+                cursor: pointer;
+                box-shadow: 30px 30px 60px #dddddd;
+                border: 1px solid #ffffff;
+                transition: all .3s ease;
+            }
+
+            .avatar{
+                position: relative;
+
+                .image{
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 50px;
+                    border-radius: 50px;
+                }
+
+                .circle{
+                    position: absolute;
+                    right: -10px;
+                    bottom: -10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+
+                    .quotes{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+
+            .opinion{
+                margin-top: 50px;
+                font-size: 14px;
+                color: #01022D;
+                font-weight: 600;
+                opacity: .3;
+                line-height: 2;
+            }
+
+            .line{
+                width: 50px;
+                border: 1px solid #FF9166;
+                opacity: .5;
+                margin-top: 50px;
+            }
+
+            .name{
+                font-size: 16px;
+                color: #01022D;
+                font-weight: 700;
+            }
+
+            .position{
+                font-size: 14px;
+                color: #01022D;
+                font-weight: 400;
+                opacity: .5;
+            }
+        }
+    }
+}
