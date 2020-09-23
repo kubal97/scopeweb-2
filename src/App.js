@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import LandingPage from './components/LandingPage';
 import FindProcess from './components/FindProcess';
 import JobsOffers from './components/JobOffers';
+import ExploreSection from './components/ExploreSection';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <LandingPage />
       <FindProcess />
       <JobsOffers />
+      <ExploreSection />
     </div>
   );
 }

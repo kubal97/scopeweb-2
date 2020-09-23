@@ -25,7 +25,7 @@ const FindProcess = () => {
             </div>
             <ArrowRight className="arrowRight" fill="#54BD7F"/>
             <div className="step">
-                <div className="rectangle purple"><i class="fas purple fa-plug"></i></div>
+                <div className="rectangle purple"><i className="fas purple fa-plug"></i></div>
                 <p className="head">Apply them</p>
                 <p className="body">Finally you apply your job and enjoy your Work.</p>
             </div>

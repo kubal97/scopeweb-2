@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.scss';
+import Logo from '../../assets/logo.svg'
 
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -23,7 +24,7 @@ const Navbar = () => {
   return (
     scrollPosition < 50 ?
     <div className="navbar">
-      <div className="logo">GetJob</div>
+      <img className="logo" src={Logo} alt="Logo"/>
       <ul className="navigation">
         <li className="navItem"><a href="/#">Home</a></li>
         <li className="navItem"><a href="/#">Categories</a></li>
@@ -37,7 +38,7 @@ const Navbar = () => {
     </div>
     : 
     <div className="navbar small">
-      <div className="logo">GetJob</div>
+      <img className="logo" src={Logo} alt="Logo"/>
       <ul className="navigation">
         <li className="navItem"><a href="/#">Home</a></li>
         <li className="navItem"><a href="/#">Categories</a></li>
