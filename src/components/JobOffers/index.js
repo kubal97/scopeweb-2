@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './jobOffers.scss';
 import Offer from './offer';
-import offers from '../../assets/data';
+import { offers } from '../../assets/data';
 
 const PAGE_SIZE = 6;
 

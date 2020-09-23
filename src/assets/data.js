@@ -3,6 +3,11 @@ import Google from './google.svg';
 import Behance from './behance.svg';
 import Windows from './windows.svg';
 
+import { ReactComponent as Tech } from './tech.svg';
+import { ReactComponent as Rugby } from './rugby.svg';
+import { ReactComponent as Megaphone } from './megaphone.svg';
+import { ReactComponent as Bookmark } from './bookmark.svg';
+
 const offers = [
     {
         id: "1",
@@ -118,4 +123,58 @@ const offers = [
     }
   ];
 
-  export default offers;
+  const categoryCards = [
+    {
+      id: "1",
+      icon: Tech,
+      header: "Programming & Tech",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "2",
+      icon: Rugby,
+      header: "Programming & Tech",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "3",
+      icon: Megaphone,
+      header: "Programming & Tech",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "4",
+      icon: Bookmark,
+      header: "Programming & Tech",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "5",
+      icon: Bookmark,
+      header: "Finance & account",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "6",
+      icon: Tech,
+      header: "Arts & Design",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "8",
+      icon: Megaphone,
+      header: "Video Editing",
+      body: "100+ Posted new Jobs"
+    },
+    {
+      id: "9",
+      icon: Rugby,
+      header: "Education",
+      body: "100+ Posted new Jobs"
+    }
+  ]
+
+  export  {
+    offers,
+    categoryCards
+  };

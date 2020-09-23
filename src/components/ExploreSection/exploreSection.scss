@@ -46,12 +46,12 @@
             color: #ffffff;
             font-size: 12px;
             font-weight: 600;
-            transition: background-color .5s ease;
+            transition: background-color .3s ease;
 
             &:hover{
                 cursor: pointer;
                 background-color: #2b9e5b;
-                transition: background-color .5s ease;
+                transition: background-color .3s ease;
             }
         }
     }
