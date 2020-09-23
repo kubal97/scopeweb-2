@@ -13,7 +13,7 @@ const About = ({ avatar, opinion, name, position, color }) => {
         <p className="opinion">{opinion}</p>
         <hr className="line"/>
         <p className="name">{name}</p>
-        <p className="position">{position}}</p>
+        <p className="position">{position}</p>
     </div>
   );
 }

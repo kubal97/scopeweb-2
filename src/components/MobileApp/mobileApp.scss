@@ -1,0 +1,105 @@
+.mobileApp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 0 5vw;
+    height: auto;
+    margin-bottom: 100px;
+
+    .image{
+        width: 30vw;
+        height: auto;
+        margin-left: 100px;
+    }
+
+    .download{
+        width: 30vw;
+        margin-top: 150px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+
+        .subheader{
+            color: #01022D;
+            font-size: 25px;
+            font-weight: 700;
+            opacity: .8;
+        }
+
+        .header{
+            color: #01022D;
+            font-size: 35px;
+            font-weight: 700;
+            margin-top: 0;
+
+            .green{
+                color: #54BD7F;
+            }
+        }
+
+        .body{
+            color: #01022D;
+            opacity: .4;
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 0;
+            line-height: 2;
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            .button{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                width: auto;
+                height: 60px;
+                padding: 0 10px;
+                background-color: #000000;
+                border-radius: 5px;
+                transition: all .3s ease;
+                
+                &:first-child{
+                    margin-right: 10px;
+                }
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: #444444;
+                    transition: all .3s ease;
+                }
+
+                .appleButton, .googleButton{
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .column{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 20px;
+
+                    .tag{
+                        color: #ffffff;
+                        font-size: 12px;
+                        font-weight: 600;
+                        margin: 0;
+                        padding: 0;
+                    }
+    
+                    .brand{
+                        color: #ffffff;
+                        font-size: 18px;
+                        font-weight: 700;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

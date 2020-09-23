@@ -8,6 +8,9 @@ import ExploreSection from './components/ExploreSection';
 import JobsCategory from './components/JobsCategory';
 import CompanyPosts from './components/CompanyPosts';
 import AboutUs from './components/AboutUs';
+import MobileApp from './components/MobileApp';
+import Newsletter from './components/Newsletter';
+import CreateAccount from './components/CreateAccount';
 
 const App = () => {
   return (
@@ -20,6 +23,9 @@ const App = () => {
       <JobsCategory />
       <CompanyPosts />
       <AboutUs />
+      <MobileApp />
+      <Newsletter />
+      <CreateAccount />
     </div>
   );
 }

@@ -1,0 +1,58 @@
+.createAccount{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 0 5vw;
+    height: auto;
+    margin-bottom: 100px;
+
+    .container{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #cccccc;
+
+        .text{
+            display: flex;
+            flex-direction: column;
+
+            .header{
+                color: #01022D;
+                font-size: 35px;
+                font-weight: 700;
+                margin: 0;
+            }
+
+            .tagline{
+                color: #01022D;
+                font-size: 20px;
+                font-weight: 400;
+                opacity: .8;
+            }
+        }
+
+        .createButton{
+            width: auto;
+            height: 50px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            padding: 5px 20px;
+            background-color: #54BD7F;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all .3s ease;
+
+            &:hover{
+                cursor: pointer;
+                background-color: #32945b;
+                transition: all .3s ease;
+            }
+        }
+    }
+}
