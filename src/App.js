@@ -11,6 +11,7 @@ import AboutUs from './components/AboutUs';
 import MobileApp from './components/MobileApp';
 import Newsletter from './components/Newsletter';
 import CreateAccount from './components/CreateAccount';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <MobileApp />
       <Newsletter />
       <CreateAccount />
+      <Footer />
     </div>
   );
 }
