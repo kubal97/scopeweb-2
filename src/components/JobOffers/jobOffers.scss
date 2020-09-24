@@ -53,7 +53,7 @@
     
                         .name{
                             font-size: 18px;
-                            opacity: .5;
+                            color: #9798ad;
                             margin: 5px auto;
                         }
     
@@ -64,7 +64,7 @@
     
                         .when{
                             font-size: 12px;
-                            opacity: .3;
+                            color: #9798ad;
                             margin: 10px auto;
                         }
                     }
@@ -100,12 +100,11 @@
 
             .body{
                 font-size: 18px;
-                color: #01022D;
-                opacity: .3;
+                color: #9798ad;
                 font-weight: 600;
             }
 
-            .footer{
+            .offerFooter{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;

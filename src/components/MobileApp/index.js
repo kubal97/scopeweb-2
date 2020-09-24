@@ -7,7 +7,7 @@ import { ReactComponent as GooglePlay } from '../../assets/googlePlay.svg';
 
 const MobileApp = () => {
   return (
-    <div className="mobileApp">
+    <div id="app" className="mobileApp">
         <img className="image" src={mobileApp} alt="Mobile App"/>
         <div className="download">
             <p className="subheader">Download & Enjoy</p>

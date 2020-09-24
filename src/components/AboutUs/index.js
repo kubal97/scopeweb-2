@@ -6,7 +6,7 @@ import { about } from '../../assets/data';
 
 const AboutUs = () => {
   return (
-    <div className="aboutUs">
+    <div id="about" className="aboutUs">
         <h4 className="header">What says <span className="green">jobholders</span> <br /> about us</h4>
         <div className="container">
             {about.map(card => {

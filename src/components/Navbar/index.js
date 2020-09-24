@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 import './navbar.scss';
 import Logo from '../../assets/logo.svg'
 
@@ -24,28 +25,58 @@ const Navbar = () => {
   return (
     scrollPosition < 50 ?
     <div className="navbar">
-      <img className="logo" src={Logo} alt="Logo"/>
+      <Link className="navItem" activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500} >
+          <img className="logo" src={Logo} alt="Logo"/>
+      </Link>
       <ul className="navigation">
-        <li className="navItem"><a href="/#">Home</a></li>
-        <li className="navItem"><a href="/#">Categories</a></li>
-        <li className="navItem"><a href="/#">About Us</a></li>
-        <li className="navItem"><a href="/#">Our app</a></li>
-        <li className="navItem"><a href="/#">Contact</a></li>
-        <li className="navItem"><i className="fas fa-upload"></i><a href="/#">Upload Resume</a></li>
+        <Link className="navItem" activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500} >
+          <a href="/#">Home</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="categories" spy={true} smooth={true} offset={-70} duration={500} >
+          <a href="/#">Categories</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} >
+          <a href="/#">About Us</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="app" spy={true} smooth={true} offset={-150} duration={500} >
+          <a href="/#">Our App</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="contact" spy={true} smooth={true} offset={-150} duration={500} >
+          <a href="/#">Contact</a>
+        </Link>
+        <li className="navItem">
+          <label htmlFor="files"><i className="fas fa-upload" />Upload Resume</label>
+          <input id="files" type="file" style={{display:"none"}}/>
+        </li>
         <li className="navItem"><i className="fas fa-user"></i><a href="/#">My Account</a></li>
         <li className="navItem"><a href="/#">Create Account</a></li>
       </ul>
     </div>
     : 
     <div className="navbar small">
-      <img className="logo" src={Logo} alt="Logo"/>
+      <Link className="navItem" activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500} >
+          <img className="logo" src={Logo} alt="Logo"/>
+      </Link>
       <ul className="navigation">
-        <li className="navItem"><a href="/#">Home</a></li>
-        <li className="navItem"><a href="/#">Categories</a></li>
-        <li className="navItem"><a href="/#">About Us</a></li>
-        <li className="navItem"><a href="/#">Our app</a></li>
-        <li className="navItem"><a href="/#">Contact</a></li>
-        <li className="navItem"><i className="fas fa-upload"></i><a href="/#">Upload Resume</a></li>
+        <Link className="navItem" activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500} >
+          <a href="/#">Home</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="categories" spy={true} smooth={true} offset={-70} duration={500} >
+          <a href="/#">Categories</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500} >
+          <a href="/#">About Us</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="app" spy={true} smooth={true} offset={-150} duration={500} >
+          <a href="/#">Our App</a>
+        </Link>
+        <Link className="navItem" activeClass="active" to="contact" spy={true} smooth={true} offset={-150} duration={500} >
+          <a href="/#">Contact</a>
+        </Link>
+        <li className="navItem">
+          <label htmlFor="files"><i className="fas fa-upload" />Upload Resume</label>
+          <input id="files" type="file" style={{display:"none"}}/>
+        </li>
         <li className="navItem"><i className="fas fa-user"></i><a href="/#">My Account</a></li>
         <li className="navItem"><a href="/#">Create Account</a></li>
       </ul>

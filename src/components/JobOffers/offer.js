@@ -23,7 +23,7 @@ const Offer = ({ logo, name, work, body }) => {
             </div>
         </div>
         <p className="body">{body}</p>
-        <div className="footer">
+        <div className="offerFooter">
             <button className="apply">Apply Now</button>
             <div className="faces">
                 <img className="face" src={Face1} alt="Face1"/>

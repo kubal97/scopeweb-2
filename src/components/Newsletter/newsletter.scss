@@ -17,10 +17,11 @@
         border-radius: 20px;
         padding: 100px 0;
 
-        .header{
+        .newsHeader{
             color: #01022D;
             font-size: 35px;
             font-weight: 700;
+            text-align: center;
     
             .green{
                 color: #54BD7F;
@@ -50,8 +51,7 @@
                 font-weight: 500;
                 border: none;
                 outline: none;
-                color: #01022d;
-                opacity: .5;
+                color: #9798ad;
             }
 
             .subscribeButton{

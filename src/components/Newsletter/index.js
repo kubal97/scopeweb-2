@@ -6,9 +6,9 @@ import { ReactComponent as Send } from '../../assets/send.svg'
 
 const Newsletter = () => {
   return (
-    <div className="newsletter">
+    <div id="contact" className="newsletter">
         <div className="content">
-            <h4 className="header">Subscribe <span className="green">Newsletter</span> & get <br/>Company News.</h4>
+            <h4 className="newsHeader">Subscribe <span className="green">Newsletter</span> & get <br/>Company News.</h4>
             <div className="inputContainer">
                 <Email fill="#C9C8CC" className="email" />
                 <input type="email" className="input"/>

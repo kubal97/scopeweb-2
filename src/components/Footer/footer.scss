@@ -26,9 +26,8 @@
 
             .description{
                 font-size: 20px;
-                color: #01022D;
+                color: #9798ad;
                 font-weight: 500;
-                opacity: .4;
                 line-height: 2;
             }
 
@@ -38,9 +37,8 @@
                 align-items: center;
                 margin-top: 50px;
                 font-size: 20px;
-                color: #01022D;
+                color: #9798ad;
                 font-weight: 400;
-                opacity: .4;
 
                 .icon{
                     width: 40px;
@@ -97,15 +95,13 @@
             .link{
                 margin-top: 30px;
                 font-size: 20px;
-                color: #01022D;
+                color: #9798ad;
                 font-weight: 400;
-                opacity: .4;
                 text-decoration: none;
 
                 &:visited{
                     text-decoration: none;
-                    color: #01022D;
-                    opacity: .4;
+                    color: #9798ad;
                 }
 
                 &:hover{
@@ -124,9 +120,8 @@
 
         .author{
             font-size: 15px;
-            color: #01022D;
+            color: #9798ad;
             font-weight: 600;
-            opacity: .3;
         }
     }
 }
