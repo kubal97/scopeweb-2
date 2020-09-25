@@ -14,112 +14,112 @@ import Face3 from './face3.jpg';
 
 const offers = [
     {
-        id: "1",
+        id: "0",
         logo: Instagram,
         name: "Instagram, Canada",
         work: "Visual Designer",
         body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "2",
+      id: "1",
       logo: Google,
       name: "Google, USA",
       work: "SEO, Expert",
       body: "Now, we are looking for a CEO expert for our Marketing team just apply now."
     },
     {
-      id: "3",
+      id: "2",
       logo: Behance, 
       name: "Behance, London",
       work: "Sr. Product Designer",
       body: "We are looking for a senior Product designer for our design team"
     },
     {
-      id: "4",
+      id: "3",
       logo: Windows,
       name: "Windows, New York",
       work: "Digital Marketing",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "5",
+      id: "4",
       logo: Windows,
       name: "Windows, New York",
       work: "Visual Designer", 
       body: "We are looking for a senior Product designer for our design team."
     },
     {
-      id: "6",
+      id: "5",
       logo: Google,
       name: "Google, USA",
       work: "Visual Designer",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "7",
+      id: "6",
       logo: Google,
       name: "Google, USA",
       work: "SEO, Expert",
       body: "Now, we are looking for a CEO expert for our Marketing team just apply now."
     },
     {
-      id: "8",
+      id: "7",
       logo: Instagram,
       name: "Instagram, Canada",
       work: "Digital Marketing",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "9",
+      id: "8",
       logo: Behance, 
       name: "Behance, London",
       work: "Visual Designer",
       body: "We are looking for a senior Product designer for our design team"
     },
     {
-      id: "10",
+      id: "9",
       logo: Windows,
       name: "Windows, New York",
       work: "Sr. Product Designer",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "11",
+      id: "10",
       logo: Google,
       name: "Google, USA",
       work: "Visual Designer",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "12",
+      id: "11",
       logo: Windows,
       name: "Windows, New York",
       work: "Sr. Product Designer", 
       body: "We are looking for a senior Product designer for our design team."
     },
     {
-      id: "13",
+      id: "12",
       logo: Google,
       name: "Google, USA",
       work: "Digital Marketing",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "14",
+      id: "13",
       logo: Google,
       name: "Google, USA",
       work: "SEO, Expert",
       body: "Now, we are looking for a CEO expert for our Marketing team just apply now."
     },
     {
-      id: "15",
+      id: "14",
       logo: Instagram,
       name: "Instagram, Canada",
       work: "Visual Designer",
       body: "Hey! We are looking for a senior Visual designer for our design team."
     },
     {
-      id: "16",
+      id: "15",
       logo: Behance, 
       name: "Behance, London",
       work: "Digital Marketing",

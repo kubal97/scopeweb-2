@@ -119,13 +119,17 @@
                     padding-bottom: 3px;
                     border-bottom: 1px solid #54BD7F;
                     pointer-events: auto;
+                    padding: 10px 20px;
 
                     &:hover{
                         outline: none;
                         border: none;
                         border-bottom: 1px solid #54BD7F;
                         cursor: pointer;
-                        color: #36945d;
+                        color: #ffffff;
+                        background-color:  #54BD7F;
+                        padding: 10px 20px;
+                        border-radius: 10px;
                     }
                 }
 
@@ -219,7 +223,7 @@
             }
         }
 
-        .active{
+        .current{
             background-color:#54BD7F;
             color: #ffffff;
         }
