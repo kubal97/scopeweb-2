@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="content">
             <div className="column">
                 <img src={Logo} alt="Logo" className="logo"/>
-                <p className="description">Getjob wonderful serenity has taken possession<br /> of my entire soul, like these sweet mornings of<br /> spring which I enjoy with my whole heart.</p>
+                <p className="description">Getjob wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                 <div className="row"><Email fill="#888888" className="icon" />info@get-tutors.com</div>
                 <div className="row"><Pin fill="#888888" className="icon" />59 West 46th Street, <br />New York City.</div>
                 <div className="rowSocial">

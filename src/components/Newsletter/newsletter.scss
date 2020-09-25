@@ -85,3 +85,29 @@
         }
     }
 }
+
+@media only screen and (max-width: 1450px){
+    .newsletter{
+        .content{
+            padding: 70px 0;
+
+            .newsHeader{
+                font-size: 28px;
+            }
+
+            .inputContainer{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .newsletter{
+        .content{
+            .inputContainer{
+                width: 80%;
+            }
+        }
+    }
+}

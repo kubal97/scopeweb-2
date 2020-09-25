@@ -103,3 +103,19 @@
         }
     }
 }
+
+@media only screen and (max-width: 1450px){
+    .aboutUs{
+        .header{
+            font-size: 28px;
+        }
+
+        .container{
+            flex-wrap: wrap;
+
+            .about{
+                width: 200px;
+            }
+        }
+    }
+}

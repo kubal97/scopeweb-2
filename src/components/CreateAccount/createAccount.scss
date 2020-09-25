@@ -55,3 +55,27 @@
         }
     }
 }
+
+@media only screen and (max-width: 1450px){
+    .createAccount{
+        .container{
+            .text{
+                .header{
+                    font-size: 28px;
+                }
+
+                .tagline{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .createAccount{
+        .container{
+            flex-direction: column;
+        }
+    }
+}

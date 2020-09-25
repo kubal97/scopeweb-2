@@ -156,6 +156,32 @@
     }
 }
 
+@media only screen and (max-width: 500px){
+    .navbar{
+        height: 80px;
+
+        .navItem{
+
+            .logo{
+                width: 100px;
+            }
+        }
+
+        .navigation{
+            padding-top: 100px;
+
+            .navItem{
+                padding: 15px 0;
+            }
+        }
+
+        .hamburger{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
 @keyframes rotation {
     0% {
         transform: rotate(0deg);

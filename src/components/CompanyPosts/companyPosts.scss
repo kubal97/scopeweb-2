@@ -26,6 +26,7 @@
             color: #9798ad;
             font-weight: 500;
             line-height: 2;
+            font-size: 16px;
         }
 
         .postsButton{
@@ -53,5 +54,42 @@
         width: 70%;
         height: auto;
         margin-right: -100px;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .companyPosts{
+        .posts{
+            .header{
+                font-size: 28px;
+            }
+
+            .body{
+                font-size: 12px;
+            }
+
+            .postsButton{
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .companyPosts{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+        .image{
+            width: 90%;
+            margin: auto;
+        }
+
+        .posts{
+            margin-top: 0;
+            width: auto;
+        }
     }
 }

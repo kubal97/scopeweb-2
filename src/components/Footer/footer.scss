@@ -29,6 +29,7 @@
                 color: #9798ad;
                 font-weight: 500;
                 line-height: 2;
+                max-width: 400px;
             }
 
             .row{
@@ -122,6 +123,56 @@
             font-size: 15px;
             color: #9798ad;
             font-weight: 500;
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .footer{
+        .content{
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            .column{
+                width: 200px;
+                margin: 0 10px;
+
+                &:first-child{
+                    width: 300px;
+                }
+
+                .logo{
+                    width: 100px;
+                }
+
+                .description{
+                    font-size: 16px;
+                }
+
+                .row{
+                    margin-top: 20px;
+                    font-size: 16px;
+
+                    .icon{
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+
+                .rowSocial{
+                    margin-top: 20px;
+                }
+
+                .header{
+                    margin-bottom: 0;
+                    font-size: 20px;
+                }
+
+                .link{
+                    margin-top: 15px;
+                    font-size: 16px;
+                }
+            }
         }
     }
 }

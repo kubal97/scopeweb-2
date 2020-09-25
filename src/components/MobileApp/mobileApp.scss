@@ -11,6 +11,7 @@
         width: 30vw;
         height: auto;
         margin-left: 100px;
+        object-fit: contain;
         animation: scaling 5s infinite ease-in-out;    
     }
 
@@ -40,7 +41,7 @@
 
         .body{
             color: #9798ad;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 500;
             margin-top: 0;
             line-height: 2;
@@ -50,6 +51,7 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
+            margin-top: 20px;
 
             .button{
                 display: flex;
@@ -96,6 +98,72 @@
                         font-weight: 700;
                         margin: 0;
                         padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .mobileApp{
+        .download{
+            .header{
+                font-size: 28px;
+            }
+
+            .body{
+                font-size: 12px;
+            }
+
+            .buttons{
+                margin-top: 50px;
+
+                .column{
+                    .tag{
+                        font-size: 10px;
+                    }
+
+                    .brand{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .mobileApp{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+        .image{
+            width: 50%;
+            margin: auto;
+        }
+
+        .download{
+            margin-top: 0;
+            margin-left: 0;
+            width: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .mobileApp{
+        .download{
+            .buttons{
+                flex-direction: column;    
+                
+                .button{
+                    width: 200px;
+                    
+                    &:first-child{
+                        margin-right: 0;
+                        margin-bottom: 20px;
                     }
                 }
             }

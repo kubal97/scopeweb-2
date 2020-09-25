@@ -137,3 +137,105 @@
         }
     }
 }
+
+@media only screen and (max-width: 1700px){
+    .landingPage{
+        background-size: cover;
+        background-position: right;
+        height: 50vw;
+
+        .container{
+            margin-bottom: 0;
+
+            .companies{
+                margin-top: 20px;
+            }
+
+            .companies{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .landingPage{
+        height: 60vw;
+
+        .container{
+            margin-top: 150px;
+            margin-bottom: 0;
+
+            .new{
+                padding: 2px;
+
+                .newText{
+                    font-size: 8px;
+                }
+
+                .stayConnect{
+                    font-size: 10px;
+                }
+            }
+
+            .header{
+                font-size: 25px;
+            }
+
+            .subheader{
+                font-size: 18px;
+            }
+
+            .search{
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                padding: 10px;
+
+                .searchInput{
+                    height: 30px;
+                    width: 150px;
+                    font-size: 10px;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+
+                .searchButton{
+                    height: 30px;
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .landingPage{
+        .container{
+            .search{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .landingPage{
+        .container{
+            margin-top: 80px;
+
+            .header{
+                font-size: 20px;
+            }
+
+            .subheader{
+                font-size: 15px;
+            }
+
+            .new{
+                display: none;
+            }
+        }
+    }
+}
