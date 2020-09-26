@@ -82,6 +82,18 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .process{
+        .step{
+            .head{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 850px){
     .findProcess{
         .process{

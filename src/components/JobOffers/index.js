@@ -7,7 +7,7 @@ const PAGE_SIZE = 6;
 
 const pageCount = Math.ceil(offers.length / PAGE_SIZE);
 
-const JobOffers = () => {
+const JobOffers = ({darkMode}) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [displayedOffers, setDisplayedOffers] = useState(offers.slice(0, PAGE_SIZE))
 
@@ -18,7 +18,7 @@ const JobOffers = () => {
   }
 
   return (
-    <div className="jobOffers">
+    <div className={darkMode ? "jobOffers darkMode" : "jobOffers"}>
         <h4 className="header">Lastest <span className="green">Job</span> Here</h4>
         <div className="container">
             {displayedOffers.map(offer => {

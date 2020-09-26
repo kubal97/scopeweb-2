@@ -84,6 +84,34 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .header{
+        color: #ffffff;
+    }
+
+    .container{
+        .categoryCard{
+            box-shadow: none;
+            background: #353434;
+
+            &:hover{
+                background: #555555;
+                box-shadow: none;
+            }
+
+            .circle{
+                background-color: #1a1919;
+            }
+
+            .header{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px){
     .jobsCategory{
         .header{

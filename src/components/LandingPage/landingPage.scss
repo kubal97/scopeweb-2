@@ -19,7 +19,7 @@
         white-space: nowrap;
     }
 
-    .container{
+    .landingContainer{
         margin: 250px 5vw;
 
         .new{
@@ -144,7 +144,7 @@
         background-position: right;
         height: 50vw;
 
-        .container{
+        .landingContainer{
             margin-bottom: 0;
 
             .companies{
@@ -162,7 +162,7 @@
     .landingPage{
         height: 60vw;
 
-        .container{
+        .landingContainer{
             margin-top: 150px;
             margin-bottom: 0;
 
@@ -212,7 +212,7 @@
 
 @media only screen and (max-width: 780px){
     .landingPage{
-        .container{
+        .landingContainer{
             .search{
                 display: none;
             }
@@ -222,7 +222,7 @@
 
 @media only screen and (max-width: 500px){
     .landingPage{
-        .container{
+        .landingContainer{
             margin-top: 80px;
 
             .header{

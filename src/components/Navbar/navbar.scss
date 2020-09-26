@@ -122,6 +122,21 @@
     display: none;
 }
 
+.navDarkMode{
+    background-color: #353434;
+
+    .navigation{
+        .navItem{
+            color: #ffffff;
+
+            a, a:visited{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+
 @media only screen and (max-width: 1400px){
     .navbar{
         .navigation{
@@ -152,6 +167,12 @@
         .navigation{
             top: 73px;
             padding-top: 20px;
+        }
+    }
+
+    .navDarkMode{
+        .navigation{
+            background-color: #353434;
         }
     }
 }

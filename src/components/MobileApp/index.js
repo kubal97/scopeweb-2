@@ -5,9 +5,9 @@ import { ReactComponent as Apple} from '../../assets/apple.svg';
 import { ReactComponent as GooglePlay } from '../../assets/googlePlay.svg';
 
 
-const MobileApp = () => {
+const MobileApp = ({ darkMode }) => {
   return (
-    <div id="app" className="mobileApp">
+    <div id="app" className={darkMode ? "mobileApp darkMode" : "mobileApp"}>
         <img className="image" src={mobileApp} alt="Mobile App"/>
         <div className="download">
             <p className="subheader">Download & Enjoy</p>

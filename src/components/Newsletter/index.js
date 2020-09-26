@@ -4,9 +4,9 @@ import { ReactComponent as Email } from '../../assets/email.svg'
 import { ReactComponent as Send } from '../../assets/send.svg'
 
 
-const Newsletter = () => {
+const Newsletter = ({ darkMode }) => {
   return (
-    <div id="contact" className="newsletter">
+    <div id="contact" className={darkMode ? "newsletter darkMode" : "newsletter"}>
         <div className="content">
             <h4 className="newsHeader">Subscribe <span className="green">Newsletter</span> & get <br/>Company News.</h4>
             <div className="inputContainer">

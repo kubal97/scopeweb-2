@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.scss';
 import Logo from '../../assets/logo.svg';
+import LogoWhite from '../../assets/logoWhite.svg';
 import { ReactComponent as Email } from '../../assets/email.svg';
 import { ReactComponent as Pin } from '../../assets/pin.svg';
 import { ReactComponent as Facebook } from '../../assets/facebookThin.svg';
@@ -8,12 +9,12 @@ import { ReactComponent as Twitter } from '../../assets/twitterThin.svg';
 import { ReactComponent as Instagram } from '../../assets/instagramThin.svg';
 
 
-const Footer = () => {
+const Footer = ({ darkMode }) => {
   return (
-    <div className="footer">
-        <div className="content">
+    <div className={darkMode ? "footer darkMode" : "footer"}>
+        <div className="footerContent">
             <div className="column">
-                <img src={Logo} alt="Logo" className="logo"/>
+                <img src={darkMode ? LogoWhite : Logo} alt="Logo" className="logo"/>
                 <p className="description">Getjob wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
                 <div className="row"><Email fill="#888888" className="icon" />info@get-tutors.com</div>
                 <div className="row"><Pin fill="#888888" className="icon" />59 West 46th Street, <br />New York City.</div>

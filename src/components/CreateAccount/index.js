@@ -1,9 +1,9 @@
 import React from 'react';
 import './createAccount.scss';
 
-const CreateAccount = () => {
+const CreateAccount = ({ darkMode }) => {
   return (
-    <div className="createAccount">
+    <div className={darkMode ? "createAccount darkMode" : "createAccount"}>
         <div className="container">
             <div className="text">
                 <h4 className="header">Ready to get started?</h4>

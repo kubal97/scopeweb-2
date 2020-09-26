@@ -8,7 +8,7 @@ import Windows from '../../assets/windows.svg'
 const LandingPage = () => {
   return (
     <div id="home" className="landingPage">
-        <div className="container">
+        <div className="landingContainer">
             <div className="new"><p className="newText">NEW</p><h3 className="stayConnect">Stay connect to Get upcoming job with #Getjob</h3></div>
             <h1 className="header">Find your job &<br /> make sure goal.</h1>
             <h2 className="subheader">Your dream job is waiting for you</h2>

@@ -6,7 +6,7 @@
     height: auto;
     margin-bottom: 30px;
 
-    .content{
+    .footerContent{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -127,9 +127,35 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .footerContent{
+        .column{
+            .header{
+                color: #ffffff;
+            }
+
+            .link{
+                &:hover{
+                    color: #ffffff;
+                }
+            }
+
+            .rowSocial{
+                .circle{
+                    &:hover{
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1300px){
     .footer{
-        .content{
+        .footerContent{
             justify-content: flex-start;
             flex-wrap: wrap;
 

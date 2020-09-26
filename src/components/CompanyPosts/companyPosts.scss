@@ -58,6 +58,16 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .posts{
+        .header{
+            color: #ffffff;
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px){
     .companyPosts{
         .posts{

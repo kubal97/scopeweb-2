@@ -86,6 +86,18 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .content{
+        background-color: #353434;
+
+        .newsHeader{
+            color: #ffffff;
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px){
     .newsletter{
         .content{

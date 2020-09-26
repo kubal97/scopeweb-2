@@ -2,9 +2,9 @@ import React from 'react';
 import './findProcess.scss';
 import {ReactComponent as ArrowRight} from '../../assets/right-arrow.svg'
 
-const FindProcess = () => {
+const FindProcess = ({darkMode}) => {
   return (
-    <div className="findProcess">
+    <div className={darkMode ? "findProcess darkMode" : "findProcess"}>
         <div className="process">
             <div className="step">
                 <div className="rectangle blue"><i className="far blue fa-user"></i></div>

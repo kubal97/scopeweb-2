@@ -56,6 +56,20 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .container{
+        border-bottom: 1px solid #353434;
+
+        .text{
+            .header{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px){
     .createAccount{
         .container{

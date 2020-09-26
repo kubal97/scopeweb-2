@@ -2,9 +2,9 @@ import React from 'react';
 import './exploreSection.scss';
 import exploreSection from '../../assets/exploreSection.png';
 
-const ExploreSection = () => {
+const ExploreSection = ({ darkMode }) => {
   return (
-    <div className="exploreSection">
+    <div className={darkMode ? "exploreSection darkMode" : "exploreSection"}>
         <img className="image" src={exploreSection} alt="Explore Section"/>
         <div className="explore">
             <h4 className="header">Get World <span className="green">20,000+</span> talented people in one place.</h4>

@@ -104,6 +104,32 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .header{
+        color: #ffffff;
+    }
+
+    .container{
+        .about{
+            background-color: #353434;
+            border: none;
+            box-shadow: none;
+
+            &:hover{
+                border: none;
+                box-shadow: none;
+                background-color:  #555555;
+            }
+
+            .name{
+                color: #ffffff;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px){
     .aboutUs{
         .header{

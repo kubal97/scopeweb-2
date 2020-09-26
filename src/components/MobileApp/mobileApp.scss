@@ -105,6 +105,16 @@
     }
 }
 
+.darkMode{
+    background-color: #1a1919;
+
+    .download{
+        .header{
+            color: #ffffff;
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px){
     .mobileApp{
         .download{
