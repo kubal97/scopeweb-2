@@ -4,12 +4,10 @@ import Google from '../../assets/google.svg'
 import Behance from '../../assets/behance.svg'
 import Instagram from '../../assets/instagram.svg'
 import Windows from '../../assets/windows.svg'
-import LandingPageImg from '../../assets/landingPage.png'
 
 const LandingPage = () => {
   return (
     <div id="home" className="landingPage">
-        <img className="image" src={LandingPageImg} alt="Landing Page"/>
         <div className="landingContainer">
             <div className="new"><p className="newText">NEW</p><h3 className="stayConnect">Stay connect to Get upcoming job with #Getjob</h3></div>
             <h1 className="header">Find your job &<br /> make sure goal.</h1>

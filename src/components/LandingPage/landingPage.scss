@@ -1,11 +1,14 @@
 .landingPage{
-    width: 100vw;
     overflow-x: hidden;
     white-space: nowrap;
     display: inline-block;
+    background-image: url('../../assets/landingPage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 
     .image{
         position: absolute;
+        z-index: -1;
         top: 0;
         left: 0;
         width: 100vw;
@@ -16,7 +19,6 @@
     }
 
     .landingContainer{
-        position: relative;
         margin: 250px 5vw;
 
         .new{
@@ -139,13 +141,7 @@
     .landingPage{
         background-size: cover;
         background-position: right;
-
-        .image{
-            right: 0;
-            height: 60vw;
-            width: auto;
-            max-width: none;
-        }
+        height: 50vw;
 
         .landingContainer{
             margin-bottom: 0;

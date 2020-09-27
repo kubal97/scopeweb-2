@@ -20,7 +20,7 @@ const JobOffers = ({darkMode}) => {
   return (
     <div className={darkMode ? "jobOffers darkMode" : "jobOffers"}>
         <h4 className="header">Lastest <span className="green">Job</span> Here</h4>
-        <div className="container">
+        <div className="jobOffersContainer">
             {displayedOffers.map(offer => {
               return <Offer key={offer.id} logo={offer.logo} name={offer.name} work={offer.work} body={offer.body} />
             })}

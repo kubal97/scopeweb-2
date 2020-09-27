@@ -14,7 +14,7 @@
         }
     }
 
-    .container{
+    .jobOffersContainer{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -237,7 +237,7 @@
         color: #ffffff;
     }
 
-    .container{
+    .jobOffersContainer{
         .offer{
             background-color: #353434;
             box-shadow: none;
@@ -281,7 +281,7 @@
             font-size: 28px;
         }
 
-        .container{
+        .jobOffersContainer{
             flex-wrap: wrap;
             justify-content: center;
 
@@ -294,7 +294,7 @@
 
 @media only screen and (max-width: 500px){
     .jobOffers{
-        .container{
+        .jobOffersContainer{
             .offer{
                 width: 300px;
 

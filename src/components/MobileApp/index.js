@@ -1,6 +1,7 @@
 import React from 'react';
 import './mobileApp.scss';
 import mobileApp from '../../assets/mobileApp.png';
+import mobileAppDark from '../../assets/mobileAppDark.png';
 import { ReactComponent as Apple} from '../../assets/apple.svg';
 import { ReactComponent as GooglePlay } from '../../assets/googlePlay.svg';
 
@@ -8,7 +9,7 @@ import { ReactComponent as GooglePlay } from '../../assets/googlePlay.svg';
 const MobileApp = ({ darkMode }) => {
   return (
     <div id="app" className={darkMode ? "mobileApp darkMode" : "mobileApp"}>
-        <img className="image" src={mobileApp} alt="Mobile App"/>
+        <img className="image" src={darkMode ? mobileAppDark : mobileApp} alt="Mobile App"/>
         <div className="download">
             <p className="subheader">Download & Enjoy</p>
             <h4 className="header">Download the <span className="green">App</span></h4>

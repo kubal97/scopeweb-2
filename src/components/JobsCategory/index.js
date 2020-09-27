@@ -10,7 +10,7 @@ const JobsCategory = ({ darkMode }) => {
     <div id="categories" className={darkMode ? "jobsCategory darkMode" : "jobsCategory"}>
         <h4 className="header">Browse Jobs <span className="green">Category</span></h4>
         <p className="body">Few stray glemas steal into the inner sanctuary, I throw myself down.</p>
-        <div className="container">
+        <div className="jobsCategoryContainer">
             {categoryCards.map(category => {
                 return <CategoryCard key={category.id} Icon={category.icon} header={category.header} body={category.body} />
             })}
