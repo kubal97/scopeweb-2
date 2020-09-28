@@ -1,10 +1,10 @@
 .exploreSection{
     display: flex;
     flex-direction: row;
-    background-color: #ffffff;
-    padding: 0 5vw;
     height: auto;
+    padding: 0 5vw;
     margin-bottom: 100px;
+    background-color: #ffffff;
 
     .image{
         width: 70%;
@@ -14,10 +14,10 @@
     }
 
     .explore{
-        width: 30%;
-        margin-top: 150px;
         display: flex;
         flex-direction: column;
+        width: 30%;
+        margin-top: 150px;
 
         .header{
             color: #01022D;
@@ -37,14 +37,14 @@
         }
 
         .exploreButton{
-            margin-top: 100px;
             width: 150px;
-            border: none;
-            outline: none;
-            border-radius: 5px;
+            margin-top: 100px;
             padding: 20px 10px;
             background-color: #54BD7F;
             color: #ffffff;
+            border: none;
+            outline: none;
+            border-radius: 5px;
             font-size: 12px;
             font-weight: 600;
             transition: background-color .3s ease;
@@ -98,8 +98,8 @@
         }
 
         .explore{
-            margin-top: 0;
             width: auto;
+            margin-top: 0;
         }
     }
 }

@@ -25,6 +25,7 @@ const App = () => {
     return savedMode || false;
   }
 
+
   return (
     <div className={darkMode ? "wrapper darkMode" : "wrapper lightMode"}>
       <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />

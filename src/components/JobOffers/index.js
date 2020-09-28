@@ -14,7 +14,6 @@ const JobOffers = ({darkMode}) => {
   const changePage = (page) => {
     setDisplayedOffers(offers.slice((page-1)*PAGE_SIZE, ((page-1)*PAGE_SIZE)+PAGE_SIZE))
     setCurrentPage(page);
-    console.log(displayedOffers);
   }
 
   return (

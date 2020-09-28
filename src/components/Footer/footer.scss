@@ -1,19 +1,19 @@
 .footer{
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
-    padding: 0 5vw;
     height: auto;
     margin-bottom: 30px;
+    padding: 0 5vw;
+    background-color: #ffffff;
 
     .footerContent{
-        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
         margin-top: 50px;
-        border-bottom: 1px solid #eeeeee;
         padding-bottom: 50px;
+        border-bottom: 1px solid #eeeeee;
 
         .column{
             display: flex;
@@ -25,11 +25,11 @@
             }
 
             .description{
-                font-size: 20px;
+                max-width: 400px;
                 color: #9798ad;
+                font-size: 20px;
                 font-weight: 500;
                 line-height: 2;
-                max-width: 400px;
             }
 
             .row{
@@ -37,8 +37,8 @@
                 flex-direction: row;
                 align-items: center;
                 margin-top: 50px;
-                font-size: 20px;
                 color: #9798ad;
+                font-size: 20px;
                 font-weight: 400;
 
                 .icon{
@@ -50,10 +50,10 @@
             }
 
             .rowSocial{
-                width: 100%;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                width: 100%;
                 margin-top: 50px;
 
                 .circle{
@@ -88,21 +88,21 @@
             }
 
             .header{
-                font-size: 25px;
                 color: #01022D;
+                font-size: 25px;
                 font-weight: 600;
             }
 
             .link{
                 margin-top: 30px;
-                font-size: 20px;
                 color: #9798ad;
+                font-size: 20px;
                 font-weight: 400;
                 text-decoration: none;
 
                 &:visited{
-                    text-decoration: none;
                     color: #9798ad;
+                    text-decoration: none;
                 }
 
                 &:hover{
@@ -114,14 +114,14 @@
     }
 
     .copywright{
-        width: 100%;
         display: flex;
         justify-content: center;
+        width: 100%;
         margin-top: 30px;
 
         .author{
-            font-size: 15px;
             color: #9798ad;
+            font-size: 15px;
             font-weight: 500;
         }
     }

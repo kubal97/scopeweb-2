@@ -1,8 +1,8 @@
 .jobOffers{
-    background-color: #ffffff;
-    padding: 0 5vw;
     height: auto;
     margin-bottom: 100px;
+    padding: 0 5vw;
+    background-color: #ffffff;
 
     .header{
         color: #01022D;
@@ -23,11 +23,11 @@
         .offer{
             width: 28%;
             height: auto;
-            padding: 10px 30px;
-            border-radius: 10px;
-            background-color: #ffffff;
-            box-shadow: 0 10px 10px #ebeff5;
             margin: 30px 10px;
+            padding: 10px 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 10px 10px #ebeff5;
             transition: all .3s ease;
             pointer-events: none;
 
@@ -52,20 +52,20 @@
                        color: #01022D;
     
                         .name{
-                            font-size: 18px;
                             color: #9798ad;
                             margin: 5px auto;
+                            font-size: 18px;
                         }
     
                         .work{
-                            font-size: 18px;
                             margin: 5px auto;
+                            font-size: 18px;
                         }
     
                         .when{
-                            font-size: 12px;
-                            color: #9798ad;
                             margin: 10px auto;
+                            color: #9798ad;
+                            font-size: 12px;
                         }
                     }
                 }
@@ -87,11 +87,11 @@
                     }
 
                     .type{
+                        padding: 5px;
                         background-color: #ffeee1;
                         color:  #ffaa65;  
                         font-size: 10px;
                         font-weight: 700;
-                        padding: 5px;
                         border-radius: 5px;
                         text-align: center;
                     }
@@ -99,8 +99,8 @@
             }
 
             .body{
-                font-size: 18px;
                 color: #9798ad;
+                font-size: 18px;
                 font-weight: 600;
             }
 
@@ -110,25 +110,25 @@
                 justify-content: space-between;
 
                 .apply{
+                    padding: 10px 20px;
+                    padding-bottom: 3px;
                     background-color: transparent;
+                    color: #54BD7F;
+                    border-bottom: 1px solid #54BD7F;
                     outline: none;
                     border: none;
                     font-size: 14;
                     font-weight: 700;
-                    color: #54BD7F;
-                    padding-bottom: 3px;
-                    border-bottom: 1px solid #54BD7F;
                     pointer-events: auto;
-                    padding: 10px 20px;
 
                     &:hover{
+                        cursor: pointer;
+                        padding: 10px 20px;
+                        color: #ffffff;
+                        background-color:  #54BD7F;
                         outline: none;
                         border: none;
                         border-bottom: 1px solid #54BD7F;
-                        cursor: pointer;
-                        color: #ffffff;
-                        background-color:  #54BD7F;
-                        padding: 10px 20px;
                         border-radius: 10px;
                     }
                 }
@@ -151,9 +151,9 @@
                         justify-content: center;
                         width: 35px;
                         height: 35px;
-                        border-radius: 20px;
                         background-color:  #ffaa65;
                         color: #ffffff;
+                        border-radius: 20px;
                         font-size: 12px;
                         font-weight: 700;
                         text-align: center;
@@ -185,10 +185,10 @@
                 opacity: 1;
 
                 .apply{
-                    border: none;
+                    padding: 0 10px;
                     background-color: #54BD7F;
                     color: #ffffff;
-                    padding: 0 10px;
+                    border: none;
                     border-radius: 10px;
                 }
             }
@@ -206,15 +206,15 @@
             align-items: center;
             width: 40px;
             height: 40px;
+            margin: 50px 10px;
+            color: #7c7dca;
+            background-color: #ffffff;
             font-size: 12px;
             font-weight: 700;
-            background-color: #ffffff;
             border: none;
             outline: none;
             border-radius: 10px;
-            color: #7c7dca;
             box-shadow: 0 5px 5px #D5D4D4;
-            margin: 50px 10px;
 
             &:hover{
                 cursor: pointer;
@@ -264,8 +264,8 @@
     .pagination{
         .page{
             background-color: #353434;
-            box-shadow: none;
             color: #1a1919;
+            box-shadow: none;
         }
 
         .current{

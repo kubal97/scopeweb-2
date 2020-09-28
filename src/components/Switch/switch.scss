@@ -3,21 +3,21 @@
   flex-direction: row;
 
   .reactSwitchCheckbox {
+    display: none;
     height: 0;
     width: 0;
-    display: none;
   }
   
   .reactSwitchLabel {
+    cursor: pointer;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
     width: 50px;
     height: 25px;
     background: grey;
     border-radius: 100px;
-    position: relative;
     transition: background-color .2s;
   }
   
@@ -28,9 +28,9 @@
     left: 2px;
     width: 20px;
     height: 20px;
+    background: #ffffff;
     border-radius: 20px;
     transition: 0.2s;
-    background: #fff;
     box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
   }
   

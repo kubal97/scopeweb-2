@@ -1,10 +1,10 @@
 .newsletter{
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
-    padding: 0 5vw;
     height: auto;
     margin-bottom: 100px;
+    padding: 0 5vw;
+    background-color: #ffffff;
 
     .content{
         display: flex;
@@ -13,9 +13,9 @@
         align-items: center;
         width: 100%;
         height: auto;
+        padding: 100px 0;
         background-color: #EDF1F4;
         border-radius: 20px;
-        padding: 100px 0;
 
         .newsHeader{
             color: #01022D;
@@ -35,9 +35,9 @@
             align-items: center;
             width: 30%;
             height: 70px;
+            padding: 0 20px;
             background-color: #ffffff;
             border-radius: 20px;
-            padding: 0 20px;
 
             .email{
                 width: 20px;
@@ -47,11 +47,11 @@
             .input{
                 width: 50%;
                 height: 50px;
+                color: #9798ad;
                 font-size: 16px;
                 font-weight: 500;
                 border: none;
                 outline: none;
-                color: #9798ad;
             }
 
             .subscribeButton{
@@ -60,12 +60,12 @@
                 align-items: center;
                 width: auto;
                 height: 50px;
-                border-radius: 10px;
-                border: none;
-                outline: none;
                 padding: 5px 20px;
                 background-color: #54BD7F;
                 color: #ffffff;
+                border-radius: 10px;
+                border: none;
+                outline: none;
                 font-size: 16px;
                 font-weight: 500;
                 transition: all .3s ease;
